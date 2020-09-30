@@ -1,0 +1,72 @@
+﻿@model IEnumerable<MvcApplication1.User_Folder>
+
+@{
+    ViewBag.Title = "Index";
+}
+<img src="~/Images/4 mobile.png" class="header_img_mobile" />
+<img src="~/Images/4.png" class="header_img" />
+<div class="Main_Content">
+    <h2>Edit User Folders List</h2>
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+     @using (Html.BeginForm())
+
+{
+
+ <p>
+
+ @Html.TextBox("SearchString", ViewBag.CurrentFilter as string, new { @class = "form-control", placeholder = "Find by Main Message" }) 
+
+ <input type="submit"  value="Search" /></p>
+
+}
+    <table>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FolderName)
+               
+            </th>
+            <th class="show_on_wide_screen margin_id">
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th class="show_on_wide_screen margin_id">
+                @Html.DisplayNameFor(model => model.ForumId)
+            </th>
+            <th class="show_on_wide_screen margin_id">
+                @Html.DisplayNameFor(model => model.image)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="margin_id">
+                    @Html.DisplayFor(modelItem => item.FolderName)
+                   
+                </td>
+                <td class="show_on_wide_screen margin_id">
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td class="show_on_wide_screen margin_id">
+                    @Html.DisplayFor(modelItem => item.ForumId)
+                </td>
+                <td class="show_on_wide_screen margin_id">
+                    @Html.DisplayFor(modelItem => item.image)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn_edit" })
+                </td>
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }, new { @class = "btn_Details" })
+                </td>
+                <td>
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn_Delete" })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

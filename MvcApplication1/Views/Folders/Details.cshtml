@@ -1,0 +1,46 @@
+﻿@model MvcApplication1.User_Folder
+
+@{
+    ViewBag.Title = "Details";
+}
+<img src="~/Images/4 mobile.png" class="header_img_mobile" />
+<img src="~/Images/4.png" class="header_img" />
+<div class="Main_Content">
+<h2>Details</h2>
+
+<fieldset>
+    <legend>User_Folder</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UserName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FolderName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FolderName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ForumId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ForumId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.image)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.image)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+</div>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="229d85d1546846b6a3ff04f956cf3795" Name="Diagram1" ZoomLevel="84">
+        <EntityTypeShape EntityType="CompanyDatabaseModel.orders" Width="1.5" PointX="9.08006836337972" PointY="6.5071187496684111" />
+        <EntityTypeShape EntityType="CompanyDatabaseModel.Thread" Width="1.5" PointX="3.1021503392151324" PointY="15.838516689761782" />
+        <EntityTypeShape EntityType="CompanyDatabaseModel.User_Folder" Width="1.5" PointX="10.755043303014265" PointY="17.989645429882057" />
+        <EntityTypeShape EntityType="CompanyDatabaseModel.users" Width="1.5" PointX="5.375" PointY="16.375" />
+        <EntityTypeShape EntityType="CompanyDatabaseModel.UserProfile" Width="1.5" PointX="3" PointY="0.875" />
+        <EntityTypeShape EntityType="CompanyDatabaseModel.webpages_Membership" Width="1.5" PointX="3.75" PointY="3.75" />
+        <EntityTypeShape EntityType="CompanyDatabaseModel.webpages_OAuthMembership" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="CompanyDatabaseModel.webpages_Roles" Width="1.5" PointX="0.75" PointY="0.875" />
+        <AssociationConnector Association="CompanyDatabaseModel.webpages_UsersInRoles" />
+        <EntityTypeShape EntityType="CompanyDatabaseModel.message" Width="1.5" PointX="0.75" PointY="3.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

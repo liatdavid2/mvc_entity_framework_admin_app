@@ -1,0 +1,66 @@
+﻿.header_img{
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right:0;
+}
+#footer_index{
+    height:50px;
+    background-color:#7e81c8;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    left:0;
+    text-align:center;
+    color:#fff;
+    font-size:14px;
+}
+.category_img{
+    width:130px;
+    height:130px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.index_table{
+    height:178px; margin: 0 auto;
+     margin-top: -55px;
+     width: 360px;
+     
+}
+#instruction{
+   height:50px;
+    margin-top:360px;
+    width:100%;
+    margin-bottom:-30px;
+    text-align:center;
+    color:#534c4a;
+    font-size:22px;
+    font-weight:bold;
+}
+    .index_table {
+       margin-top: 210px;
+}
+    .page-header {
+    border:none;
+    text-align:center;
+    font-size:24px;
+    color:#534c4a;
+    font-weight:bold;
+}
+@media (max-width: 900px) {
+    .index_table {
+       margin-top: 100px;
+}
+
+}
+@media (min-width: 376px) {
+    .row {
+        display: none;
+    }
+    .mobile_header_img {
+        display:none;
+    }
+
+}

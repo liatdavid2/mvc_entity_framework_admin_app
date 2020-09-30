@@ -1,0 +1,56 @@
+﻿@model MvcApplication1.message
+
+@{
+    ViewBag.Title = "Create";
+}
+<img src="~/Images/6 mobile.png" class="header_img_mobile" />
+<img src="~/Images/6.png" class="header_img" />
+<div class="Main_Content">
+    <h2>Create</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        <fieldset>
+            <legend>message</legend>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.name)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.name)
+                @Html.ValidationMessageFor(model => model.name)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.type)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.type)
+                @Html.ValidationMessageFor(model => model.type)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.question)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.question)
+                @Html.ValidationMessageFor(model => model.question)
+            </div>
+
+            <p>
+                <input type="submit" value="Create" />
+            </p>
+        </fieldset>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+</div>

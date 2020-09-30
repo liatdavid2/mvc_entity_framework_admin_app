@@ -1,0 +1,53 @@
+﻿@model MvcApplication1.users
+
+@{
+    ViewBag.Title = "Details";
+}
+<img src="~/Images/3 mobile.png" class="header_img_mobile" />
+<img src="~/Images/3.png" class="header_img" />
+<div class="Main_Content">
+    <h2>Details</h2>
+
+    <fieldset>
+        <legend>users</legend>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.name)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.name)
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.password)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.password)
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.email)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.email)
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.user_type)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.user_type)
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.image)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.image)
+        </div>
+    </fieldset>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</div>

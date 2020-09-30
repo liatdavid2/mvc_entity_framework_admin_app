@@ -1,0 +1,43 @@
+﻿@model MvcApplication1.message
+
+@{
+    ViewBag.Title = "Delete";
+}
+  <img src="~/Images/6 mobile.png" class="header_img_mobile" />
+             <img src="~/Images/6.png" class="header_img" />
+<div class="Main_Content">
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>message</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.type)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.type)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.question)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.question)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}
+</div>

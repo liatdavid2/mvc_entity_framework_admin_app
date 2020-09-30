@@ -1,0 +1,71 @@
+﻿@model IEnumerable<MvcApplication1.message>
+
+@{
+    ViewBag.Title = "Main Message";
+}
+  <img src="~/Images/6 mobile.png" class="header_img_mobile" />
+             <img src="~/Images/6.png" class="header_img" />
+<div class="Main_Content">
+<h2>Edit Main Messages</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm())
+
+{
+
+ <p>
+
+ @Html.TextBox("SearchString", ViewBag.CurrentFilter as string, new { @class = "form-control", placeholder = "Find by Main Message" }) 
+
+ <input type="submit"  value="Search" /></p>
+
+}
+          
+<table>
+    <tr>
+
+        <th class="margin_id">
+            @Html.DisplayNameFor(model => model.question)
+        </th>
+        <th class="show_on_wide_screen margin_id">
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th class="show_on_wide_screen margin_id">
+            @Html.DisplayNameFor(model => model.type)
+        </th>
+        <th class="show_on_wide_screen margin_id" >
+            @Html.DisplayNameFor(model => model.id)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.question)
+        </td>
+        <td class="show_on_wide_screen">
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td class="show_on_wide_screen">
+            @Html.DisplayFor(modelItem => item.type)
+        </td>
+        <td class="show_on_wide_screen margin_id" >
+            @Html.DisplayFor(modelItem => item.id)
+        </td>
+        <td >
+            @Html.ActionLink("Edit", "Edit", new { id=item.id },new { @class="btn_edit" }) 
+         </td>
+        <td>  
+             @Html.ActionLink("Details", "Details", new { id=item.id },new { @class="btn_Details" }) 
+         </td>
+        <td>  
+             @Html.ActionLink("Delete", "Delete", new { id=item.id },new { @class="btn_Delete" })
+        </td>
+    </tr>
+}
+
+</table>
+</div>

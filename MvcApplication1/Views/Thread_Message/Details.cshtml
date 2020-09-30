@@ -1,0 +1,53 @@
+﻿@model MvcApplication1.Thread
+
+@{
+    ViewBag.Title = "Details";
+}
+<img src="~/Images/2 mobile.png" class="header_img_mobile" />
+<img src="~/Images/2.png" class="header_img" />
+<div class="Main_Content">
+    <h2>Details</h2>
+
+    <fieldset>
+        <legend>Thread</legend>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.forumId)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.forumId)
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.answer)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.answer)
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.posterName)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.posterName)
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.image)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.image)
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.type)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.type)
+        </div>
+    </fieldset>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</div>
