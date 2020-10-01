@@ -10,10 +10,10 @@ Technologies:\
 Front-end : jQuery, javascript, css ,HTML5.\
 Back-end : C# mvc , entity framework ,iis on azure.\
 
-<h5>Login page</h5>
+<h4>Login page</h4>
 <img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/login.png?raw=true" width="950" >
 
-<h5>The admin manager can delete inappropriate and spam messages.</h5>
+<h4>The admin manager can delete inappropriate and spam messages.</h4>
 <img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/main_messages.png?raw=true" width="950" >
 
 <h5>The admin manager can delete inappropriate users, register new users and manage passwords.</h5>
