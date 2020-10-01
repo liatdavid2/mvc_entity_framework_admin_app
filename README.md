@@ -1,6 +1,6 @@
 # Mvc entity framework admin app
 <h4>App URL: http://infomatixadmin.azurewebsites.net/Account/Login: </h4> 
-<p>username: shai  password: shai2015</p>
+<p><b>username</b>: shai  <b>password:</b> shai2015</p>
 <p>The content management system of infomatix app - url : http://infomatixapp.azurewebsites.net/Pages/Forum.aspx</p>
 
 Technologies:\
