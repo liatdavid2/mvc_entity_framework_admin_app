@@ -6,7 +6,7 @@
 
 Technologies:\
 Front-end : jQuery, javascript, css ,HTML5.\
-Back-end : C# mvc , entity framework ,iis on azure.\
+Back-end : C# mvc , entity framework ,iis on azure.
 
 <h3>Login page</h3>
 <img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/login.png?raw=true" width="950" >
