@@ -201,10 +201,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CompanyModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="CompanyModel.Designer.cs">
+    <Compile Include="AppModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>CompanyModel.edmx</DependentUpon>
+      <DependentUpon>AppModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\FoldersController.cs" />
@@ -247,7 +247,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="5 mobile.png" />
     <Content Include="App_Data\AppDB.mdf" />
     <Content Include="App_Data\AppDB_log.ldf">
       <DependentUpon>AppDB.mdf</DependentUpon>
@@ -322,21 +321,21 @@
     <Content Include="Content\thumbnail-gallery.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <EntityDeploy Include="CompanyModel.edmx">
+    <EntityDeploy Include="AppModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>CompanyModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>AppModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
     <Content Include="CompanyModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>CompanyModel.edmx</DependentUpon>
+      <DependentUpon>AppModel.edmx</DependentUpon>
       <LastGenOutput>CompanyModel.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="CompanyModel.edmx.diagram">
-      <DependentUpon>CompanyModel.edmx</DependentUpon>
+    <Content Include="AppModel.edmx.diagram">
+      <DependentUpon>AppModel.edmx</DependentUpon>
     </Content>
     <Content Include="CompanyModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>CompanyModel.edmx</DependentUpon>
+      <DependentUpon>AppModel.edmx</DependentUpon>
       <LastGenOutput>CompanyModel.cs</LastGenOutput>
     </Content>
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
