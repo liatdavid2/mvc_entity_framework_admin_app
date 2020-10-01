@@ -1,7 +1,7 @@
 # mvc_entity_framework_admin_app
 <h4>App URL: http://infomatixadmin.azurewebsites.net/Account/Login: </h4> 
-<h6>username: shai</h6>
-<h6>password: shai2015</h6>
+<p>username: shai</p>
+<p>password: shai2015</p>
 The content management system of infomatix app - scientist's social network app that was written by me.\
 url : http://infomatixapp.azurewebsites.net/Pages/Forum.aspx \
 username : lane kim \ 
