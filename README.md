@@ -1,15 +1,26 @@
 # mvc_entity_framework_admin_app
 <h4>App URL: http://infomatixadmin.azurewebsites.net/Account/Login: </h4> 
-<h6>username: shai</h6>
-<h6>password: shai2015</h6>
-The content management system of infomatix app - scientist's social network app that was written by me.\
-url : http://infomatixapp.azurewebsites.net/Pages/Forum.aspx \
-username : lane kim \ 
-passwork : lane 
+<p>username: shai</p>
+<p>password: shai2015</p>
+<p>The content management system of infomatix app - scientist's social network app that was written by me: http://infomatixapp.azurewebsites.net/Pages/Forum.aspx </p>
+<p>username : lane kim </p>
+<p>passwork : lane </p>
 
 Technologies:\
-Front-end : Angular, Scss ,HTML5, Material-ui .\
-Back-end : C# webapi
+Front-end : jQuery, javascript, css ,HTML5.\
+Back-end : C# mvc , entity framework .\
 
 <h5>Responsive dashboard with a list of your data analysis from CSV files:</h5>
-<img src="https://github.com/liatdavid2/analysis_system_angular4_code/blob/master/src/assets/images/screenshot/%E2%80%8F%E2%80%8Fdashboard.PNG?raw=true" width="750" >
+<img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/login.png?raw=true" width="950" >
+
+<h5>Responsive dashboard with a list of your data analysis from CSV files:</h5>
+<img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/main_messages.png?raw=true" width="950" >
+
+<h5>Admin manager can delete inappropriate users, register new users and manage passwords.</h5>
+<img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/users.png?raw=true" width="950" >
+
+<h5>Responsive dashboard with a list of your data analysis from CSV files:</h5>
+<img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/User_folders.png?raw=true" width="950" >
+
+<h5>Responsive dashboard with a list of your data analysis from CSV files:</h5>
+<img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/thread_messages.png?raw=true" width="950" >
