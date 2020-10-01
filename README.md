@@ -12,4 +12,4 @@ Front-end : Angular, Scss ,HTML5, Material-ui .\
 Back-end : C# webapi
 
 <h5>Responsive dashboard with a list of your data analysis from CSV files:</h5>
-<img src="https://github.com/liatdavid2/analysis_system_angular4_code/blob/master/src/assets/images/screenshot/%E2%80%8F%E2%80%8Fdashboard.PNG?raw=true" width="750" >
+<img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/login.png?raw=true" width="750" >
