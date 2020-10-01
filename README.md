@@ -3,6 +3,8 @@
 <p><b>username</b>: shai  <b>password:</b> shai2015</p>
 <p>The content management system of infomatix app - url : http://infomatixapp.azurewebsites.net/Pages/Forum.aspx</p>
 
+<h3>Fully responsive app - fit to laptop,tablet, and mobile phone</h3>
+
 Technologies:\
 Front-end : jQuery, javascript, css ,HTML5.\
 Back-end : C# mvc , entity framework ,iis on azure.
