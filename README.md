@@ -1,5 +1,5 @@
 # Mvc entity framework admin app
-<h3>App URL: http://infomatixadmin.azurewebsites.net/Account/Login: </h3> 
+<h3>App URL: http://infomatixadmin.azurewebsites.net/Account/Login : </h3> 
 <p><b>username</b>: shai  <b>password:</b> shai2015</p>
 <p>( The content management system of infomatix app - url : http://infomatixapp.azurewebsites.net/Pages/Forum.aspx )</p>
 
