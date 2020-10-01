@@ -11,7 +11,7 @@ Front-end : Angular, css ,HTML5, Material-ui .\
 Back-end : C# mvc , entity framework .\
 
 <h5>Responsive dashboard with a list of your data analysis from CSV files:</h5>
-<img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/login.png?raw=true" width="750" >
+<img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/login.png?raw=true" width="1050" >
 
 <h5>Responsive dashboard with a list of your data analysis from CSV files:</h5>
 <img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/main_messages.png?raw=true" width="750" >
