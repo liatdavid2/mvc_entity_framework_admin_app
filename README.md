@@ -7,7 +7,7 @@
 <p>passwork : lane </p>
 
 Technologies:\
-Front-end : Angular, css ,HTML5, Material-ui .\
+Front-end : jQuery, javascript, css ,HTML5.\
 Back-end : C# mvc , entity framework .\
 
 <h5>Responsive dashboard with a list of your data analysis from CSV files:</h5>
@@ -16,7 +16,7 @@ Back-end : C# mvc , entity framework .\
 <h5>Responsive dashboard with a list of your data analysis from CSV files:</h5>
 <img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/main_messages.png?raw=true" width="950" >
 
-<h5>Responsive dashboard with a list of your data analysis from CSV files:</h5>
+<h5>Admin manager can delete inappropriate users, register new users and manage passwords.</h5>
 <img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/users.png?raw=true" width="950" >
 
 <h5>Responsive dashboard with a list of your data analysis from CSV files:</h5>
