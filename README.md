@@ -1,4 +1,4 @@
-# mvc_entity_framework_admin_app
+# Mvc entity framework admin app
 <h4>App URL: http://infomatixadmin.azurewebsites.net/Account/Login: </h4> 
 <p>username: shai</p>
 <p>password: shai2015</p>
@@ -13,14 +13,14 @@ Back-end : C# mvc , entity framework ,iis on azure.\
 <h2>Login page</h2>
 <img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/login.png?raw=true" width="950" >
 
-<h2>The admin manager can delete inappropriate and spam messages.</h2>
+<h2>Main messages management:The admin manager can delete inappropriate and spam messages.</h2>
 <img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/main_messages.png?raw=true" width="950" >
 
-<h5>The admin manager can delete inappropriate users, register new users and manage passwords.</h5>
+<h2>The admin manager can delete inappropriate users, register new users and manage passwords.</h2>
 <img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/users.png?raw=true" width="950" >
 
-<h5>The admin manager can delete inappropriate folders and can add folders to some users.</h5>
+<h2>The admin manager can delete inappropriate folders and can add folders to some users.</h2>
 <img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/User_folders.png?raw=true" width="950" >
 
-<h5>The admin manager can delete inappropriate comments. </h5>
+<h2>The admin manager can delete inappropriate comments. </h2>
 <img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/thread_messages.png?raw=true" width="950" >
