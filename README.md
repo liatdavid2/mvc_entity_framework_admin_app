@@ -2,8 +2,7 @@
 <h4>App URL: http://infomatixadmin.azurewebsites.net/Account/Login: </h4> 
 <p>username: shai</p>
 <p>password: shai2015</p>
-<p>The content management system of infomatix app - scientist's social network app that was written by me.</p>
-<p>url : http://infomatixapp.azurewebsites.net/Pages/Forum.aspx </p>
+<p>The content management system of infomatix app - scientist's social network app that was written by me. : http://infomatixapp.azurewebsites.net/Pages/Forum.aspx </p>
 <p>username : lane kim </p>
 <p>passwork : lane </p>
 
