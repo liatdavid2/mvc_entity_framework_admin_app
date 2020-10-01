@@ -13,10 +13,10 @@ Back-end : C# mvc , entity framework ,iis on azure.\
 <h2>Login page</h2>
 <img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/login.png?raw=true" width="950" >
 
-<h2>Main messages management:The admin manager can delete inappropriate and spam messages.</h2>
+<h3>Main messages management:The admin manager can delete inappropriate and spam messages.</h3>
 <img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/main_messages.png?raw=true" width="950" >
 
-<h2>The admin manager can delete inappropriate users, register new users and manage passwords.</h2>
+<h3>The admin manager can delete inappropriate users, register new users and manage passwords.</h3>
 <img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/users.png?raw=true" width="950" >
 
 <h2>The admin manager can delete inappropriate folders and can add folders to some users.</h2>
