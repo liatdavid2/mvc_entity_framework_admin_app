@@ -10,7 +10,7 @@ Front-end : jQuery, javascript, css ,HTML5.\
 Back-end : C# mvc , entity framework ,iis on azure.
 
 <h3>Login page</h3>
-<img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/login.png?raw=true" width="950" >
+<img src="https://raw.githubusercontent.com/liatdavid2/infomatix_app/main/Images/git%20images/login.jpg" width="950" >
 
 <h3>Main messages management - The admin manager can delete inappropriate and spam messages.</h3>
 <img src="https://github.com/liatdavid2/mvc_entity_framework_admin_app/blob/master/MvcApplication1/Images/git%20images/main_messages.png?raw=true" width="950" >
