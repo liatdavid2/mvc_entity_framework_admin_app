@@ -2,7 +2,7 @@
 
 <h3>App URL: http://infomatixadmin.azurewebsites.net/Account/Login : </h3> 
 <p><b>username</b>: shai  <b>password:</b> shai2015</p>
-<p>( The content management system of infomatix app - url : http://infomatixapp.azurewebsites.net/Pages/Forum.aspx )</p>
+<p>The content management system</p>
 
 <h3>Fully responsive app - fit to laptop, tablet, and mobile phone.</h3>
 
